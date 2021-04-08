@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165c1cb0a79" ></w:Config>
+	<e:Image width="1920" height="1080" x="0" y="0" source="bg2_jpg" anchorOffsetX="0" anchorOffsetY="0" fillMode="repeat"/>
+	<e:Label text="真爱扑克在线匹配测试" y="119" size="42" fontFamily="Arial" horizontalCenter="0"/>
+	<e:Button id="btn_enter" label="进入测试" y="470" anchorOffsetX="0" width="476" anchorOffsetY="0" height="70" horizontalCenter="0"/>
+	<e:Rect id="rect_clear" width="200" height="70" y="611" strokeAlpha="1" strokeColor="0x00c1e0" strokeWeight="2" fillColor="0x282828" ellipseWidth="15" ellipseHeight="15" horizontalCenter="0"/>
+	<e:Label id="lab_clear" text="清除缓存" y="636" size="24" fontFamily="Arial" textColor="0x00c1e0" horizontalCenter="0"/>
+	<e:Group id="lab_clearNote" y="752" horizontalCenter="0" width="300" visible="false">
+		<e:Rect width="300" height="44" x="0" y="0" fillColor="0x606060" ellipseWidth="15" ellipseHeight="15"/>
+		<e:Label text="缓存清除成功" x="40" y="8" size="20" height="28" verticalAlign="middle" textAlign="center" width="220"/>
+	</e:Group>
+</e:Skin>

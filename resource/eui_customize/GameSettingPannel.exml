@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSettingPannelSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Image left="-2" right="2" bottom="0"  top="0" source="border_png" scale9Grid="2,2,12,12"  anchorOffsetY="0" anchorOffsetX="0"/>
+    <e:Group id="moveArea" left="0" right="0" top="0" height="45">
+        <e:Image left="0" right="0" bottom="0"  top="0" source="header_png"/>
+        <e:Label id="titleDisplay" size="24" fontFamily="SimSun"
+                 wordWrap="false" left="15" right="5" verticalCenter="0" text="游戏设置" textColor="0x050000" bold="true" textAlign="center"/>
+    </e:Group>
+    <e:Button id="btn_confirm" label="确认" bottom="16" horizontalCenter="69" anchorOffsetY="0" height="44"/>
+	<e:Button id="btn_return" label="返回" x="77" y="240" anchorOffsetY="0" height="44"/>
+	<e:Label text="握牌方式：" x="38" y="80" textColor="0x050000"/>
+	<e:RadioButton id="radio_left" label="左手" x="198" y="84"/>
+	<e:RadioButton id="radio_right" label="右手" x="293" y="84"/>
+	<e:Label text="游戏声音：" x="38" y="135" textColor="0x020000"/>
+	<e:Label text="问题反馈：" x="38" y="188" textColor="0x070000"/>
+	<e:TextInput id="ti_bug" width="194.84" height="27.06" x="188.68" y="187.85" rotation="360" anchorOffsetX="0" anchorOffsetY="0" enabled="false"/>
+	<e:ToggleSwitch id="ts_music" label="关" x="286.1" y="135" enabled="false"/>
+	<e:Label text="规则" x="342.5" y="253" anchorOffsetX="0" width="37" anchorOffsetY="0" height="18" textColor="0x0431f7" size="15" italic="true" fontFamily="KaiTi"/>
+</e:Skin>

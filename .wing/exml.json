@@ -1,0 +1,50 @@
+{
+    "16e9100db2d": {
+        "path": "..\\resource\\eui_customize\\GameSettings.ts",
+        "class": "GameSettings",
+        "parentPath": ""
+    },
+    "16e9102ead4": {
+        "path": "eui\\GameSettings.ts",
+        "class": "GameSettings",
+        "parentPath": ""
+    },
+    "16e91076e53": {
+        "path": "eui\\GameSettingPannel.ts",
+        "class": "GameSettingPannel",
+        "parentPath": ""
+    },
+    "global": {
+        "globalBindingDataTestObj": []
+    },
+    "16ea84acaed": {
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": true,
+        "useBgColor": true,
+        "backgroundAlpha": 100,
+        "bindingDataTestObj": [
+            {
+                "key": "bindingTestKey0",
+                "value": ""
+            }
+        ]
+    },
+    "16ec56e8ade": {
+        "path": "eui\\TakeOverFriend.ts",
+        "class": "TakeOverFriend",
+        "parentPath": ""
+    },
+    "16eca4492ac": {
+        "path": "eui\\IndexProgress.ts",
+        "class": "IndexProgress",
+        "parentPath": ""
+    },
+    "16ecb22c57c": {
+        "path": "eui\\test.ts",
+        "class": "test",
+        "parentPath": ""
+    }
+}
